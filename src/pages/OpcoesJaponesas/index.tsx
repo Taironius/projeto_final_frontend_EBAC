@@ -78,10 +78,10 @@ const pratos: Food[] = [
   }
 ]
 
-const Opcoes = () => (
+const OpcoesJaponesas = () => (
   <>
     <ProductsList foods={pratos} />
   </>
 )
 
-export default Opcoes
+export default OpcoesJaponesas
