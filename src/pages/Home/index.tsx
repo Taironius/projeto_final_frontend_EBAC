@@ -14,7 +14,7 @@ const pratos: Food[] = [
     infos: ['Destaque da semana', 'Japonesa'],
     image: sushi,
     more: 'Saiba mais',
-    to: '/opcoes-japonesas',
+    to: '/perfil',
     tittleButton: 'Comida Japonesa'
   },
   {
@@ -26,7 +26,7 @@ const pratos: Food[] = [
     infos: ['Italiana'],
     image: pasta,
     more: 'Saiba mais',
-    to: '/pasta',
+    to: '/perfil',
     tittleButton: 'Comida Italiana'
   },
   {
@@ -38,7 +38,7 @@ const pratos: Food[] = [
     infos: ['Italiana'],
     image: pasta,
     more: 'Saiba mais',
-    to: '/pasta',
+    to: '/perfil',
     tittleButton: 'Comida Italiana'
   },
   {
@@ -50,7 +50,7 @@ const pratos: Food[] = [
     infos: ['Italiana'],
     image: pasta,
     more: 'Saiba mais',
-    to: '/pasta',
+    to: '/perfil',
     tittleButton: 'Comida Italiana'
   },
   {
@@ -62,7 +62,7 @@ const pratos: Food[] = [
     infos: ['Italiana'],
     image: pasta,
     more: 'Saiba mais',
-    to: '/pasta',
+    to: '/perfil',
     tittleButton: 'Comida Italiana'
   },
   {
@@ -74,7 +74,7 @@ const pratos: Food[] = [
     infos: ['Italiana'],
     image: pasta,
     more: 'Saiba mais',
-    to: '/pasta',
+    to: '/perfil',
     tittleButton: 'Comida Italiana'
   }
 ]
