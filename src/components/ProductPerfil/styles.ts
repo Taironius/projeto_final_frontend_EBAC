@@ -1,48 +1,37 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
-import { TagContainer } from '../Tag/styles'
 
 export const Card = styled.div`
   background-color: ${cores.laranja};
-  color: ${cores.rosaClaro}
-  max-width: 472px;
+  color: ${cores.rosaClaro};
+  width: 320px;
   position: relative;
+  padding: 8px;
+  margin-top: 56px;
 
-  ${TagContainer} {
-    margin-left: 8px;
-    margin-bottom: 8px;
-  }
-`
-
-export const TituloSection = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  img {
-    margin-left: 8px;
+  a {
+    width: 100%;
+    background-color: ${cores.rosaClaro};
+    color: ${cores.laranja};
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
   }
 `
 
 export const Titulo = styled.h2`
-  font-size: 18px;
-  font-weight: 700;
-  display: flex;
+  font-size: 16px;
+  font-weight: 900;
+  display: block;
   margin-top: 8px;
-  margin-bottom: 16px;
-  padding: 8px;
+  margin-bottom: 8px;
 `
 
 export const Descricao = styled.p`
   font-size: 14px;
+  font-weight: 400;
   line-height: 22px;
   display: block;
-  margin-bottom: 20px;
-  padding: 8px;
-`
-
-export const Infos = styled.div`
-  position: absolute;
-  top: 16px;
-  right: 16px;
+  margin-bottom: 8px;
 `

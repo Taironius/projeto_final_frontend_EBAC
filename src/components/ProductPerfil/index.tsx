@@ -1,48 +1,31 @@
-import { Card, Descricao, Infos, Titulo, TituloSection } from './styles'
-import estrela from '../../assets/images/estrela.svg'
-import Tag from '../Tag'
+import { Card, Descricao, Titulo } from './styles'
 import Button from '../Button'
 
 type Props = {
   title: string
-  score: string
   description: string
-  infos: string[]
+  order: string
   image: string
-  more: string
   to: string
   tittleButton: string
 }
 
-const Product = ({
+const ProductPerfil = ({
   title,
-  score,
   description,
-  more,
-  infos,
+  order,
   image,
   to,
   tittleButton
 }: Props) => (
   <Card>
     <img src={image} alt={title} />
-    <Infos>
-      {infos.map((info) => (
-        <Tag key={info}>{info}</Tag>
-      ))}
-    </Infos>
-    <TituloSection>
-      <Titulo>{title}</Titulo>
-      <Titulo>
-        {score}
-        <img src={estrela} alt="estrela" />
-      </Titulo>
-    </TituloSection>
+    <Titulo>{title}</Titulo>
     <Descricao>{description}</Descricao>
     <Button to={to} titleButton={tittleButton}>
-      {more}
+      {order}
     </Button>
   </Card>
 )
 
-export default Product
+export default ProductPerfil

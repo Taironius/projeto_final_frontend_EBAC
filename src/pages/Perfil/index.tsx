@@ -1,8 +1,8 @@
 import HeaderPerfil from '../../components/HeaderPerfil'
 import PerfilApresentacao from '../../components/PerfilApresentacao'
-import ProductsListApresentacao from '../../components/ProductsListApresentacao'
 import { FoodApresentacao } from '../../models/Food'
 import pizza from '../../assets/images/pizza.svg'
+import ProductsListPerfil from '../../components/ProductsListPerfil'
 
 const pratosPerfil: FoodApresentacao[] = [
   {
@@ -71,7 +71,7 @@ const Perfil = () => (
   <>
     <HeaderPerfil />
     <PerfilApresentacao />
-    <ProductsListApresentacao foods={pratosPerfil} />
+    <ProductsListPerfil foods={pratosPerfil} />
   </>
 )
 

@@ -3,8 +3,8 @@ import { cores } from '../../styles'
 import { TagContainer } from '../Tag/styles'
 
 export const Card = styled.div`
-  background-color: ${cores.laranja};
-  color: ${cores.rosaClaro}
+  background-color: ${cores.branco};
+  color: ${cores.laranja};
   max-width: 472px;
   position: relative;
 
