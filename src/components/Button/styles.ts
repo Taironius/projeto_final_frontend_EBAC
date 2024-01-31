@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const ButtonContainer = styled(Link)`
   background-color: ${cores.laranja};
-  color: ${cores.brancaTexto};
+  color: ${cores.rosaClaro};
   font-size: 14px;
   font-weight: 700;
   padding: 4px 6px;
