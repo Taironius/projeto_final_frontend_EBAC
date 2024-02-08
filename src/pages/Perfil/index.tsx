@@ -12,7 +12,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   },
   {
@@ -22,7 +22,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   },
   {
@@ -32,7 +32,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   },
   {
@@ -42,7 +42,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   },
   {
@@ -52,7 +52,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   },
   {
@@ -62,7 +62,7 @@ const pratosPerfil: FoodApresentacao[] = [
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
     order: 'Adicionar ao Carrinho',
-    to: '/teste',
+    to: '',
     tittleButton: 'Comprar'
   }
 ]

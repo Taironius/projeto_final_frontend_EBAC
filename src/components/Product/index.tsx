@@ -39,7 +39,13 @@ const Product = ({
       </Titulo>
     </TituloSection>
     <Descricao>{description}</Descricao>
-    <Button to={to} titleButton={tittleButton}>
+    <Button
+      to={to}
+      titleButton={tittleButton}
+      onClick={() => {
+        console.log('botão saiba mais clicado')
+      }}
+    >
       {more}
     </Button>
   </Card>
