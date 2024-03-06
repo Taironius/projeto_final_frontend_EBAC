@@ -5,7 +5,7 @@ import Button from '../Button'
 
 type Props = {
   title: string
-  score: string
+  score: number
   description: string
   infos: string[]
   image: string
